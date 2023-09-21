@@ -1,0 +1,88 @@
+﻿Code,Entity,status,Year,Number
+AUS,Australia,Delivered,2022,0
+AUS,Australia,Only Announced,2022,60000000
+AUS,Australia,Only Donated,2022,0
+AUT,Austria,Delivered,2022,1200000
+AUT,Austria,Only Announced,2022,0
+AUT,Austria,Only Donated,2022,2000000
+BEL,Belgium,Delivered,2022,8200000
+BEL,Belgium,Only Announced,2022,2400000
+BEL,Belgium,Only Donated,2022,4400000
+BRA,Brazil,Delivered,2022,0
+BRA,Brazil,Only Announced,2022,16900000
+BRA,Brazil,Only Donated,2022,5100000
+CAN,Canada,Delivered,2022,14200000
+CAN,Canada,Only Announced,2022,21600000
+CAN,Canada,Only Donated,2022,15200000
+DNK,Denmark,Delivered,2022,7300000
+DNK,Denmark,Only Announced,2022,700000
+DNK,Denmark,Only Donated,2022,0
+,European Union,Delivered,2022,286300000
+,European Union,Only Announced,2022,131300000
+,European Union,Only Donated,2022,109000000
+FIN,Finland,Delivered,2022,2800000
+FIN,Finland,Only Announced,2022,900000
+FIN,Finland,Only Donated,2022,300000
+FRA,France,Delivered,2022,61300000
+FRA,France,Only Announced,2022,42600000
+FRA,France,Only Donated,2022,16100000
+DEU,Germany,Delivered,2022,92100000
+DEU,Germany,Only Announced,2022,49500000
+DEU,Germany,Only Donated,2022,33400000
+GRC,Greece,Delivered,2022,4300000
+GRC,Greece,Only Announced,2022,0
+GRC,Greece,Only Donated,2022,0
+HKG,Hong Kong,Delivered,2022,900000
+HKG,Hong Kong,Only Announced,2022,500000
+HKG,Hong Kong,Only Donated,2022,6600000
+IRL,Ireland,Delivered,2022,1600000
+IRL,Ireland,Only Announced,2022,300000
+IRL,Ireland,Only Donated,2022,2100000
+ITA,Italy,Delivered,2022,42000000
+ITA,Italy,Only Announced,2022,8900000
+ITA,Italy,Only Donated,2022,21100000
+JPN,Japan,Delivered,2022,18100000
+JPN,Japan,Only Announced,2022,15700000
+JPN,Japan,Only Donated,2022,26200000
+MEX,Mexico,Delivered,2022,0
+MEX,Mexico,Only Announced,2022,20000000
+MEX,Mexico,Only Donated,2022,0
+NLD,Netherlands,Delivered,2022,14200000
+NLD,Netherlands,Only Announced,2022,9500000
+NLD,Netherlands,Only Donated,2022,3300000
+NZL,New Zealand,Delivered,2022,1200000
+NZL,New Zealand,Only Announced,2022,1300000
+NZL,New Zealand,Only Donated,2022,6500000
+NOR,Norway,Delivered,2022,3500000
+NOR,Norway,Only Announced,2022,1000000
+NOR,Norway,Only Donated,2022,2500000
+PRT,Portugal,Delivered,2022,2900000
+PRT,Portugal,Only Announced,2022,1200000
+PRT,Portugal,Only Donated,2022,900000
+SVK,Slovakia,Delivered,2022,1100000
+SVK,Slovakia,Only Announced,2022,0
+SVK,Slovakia,Only Donated,2022,1000000
+SVN,Slovenia,Delivered,2022,1100000
+SVN,Slovenia,Only Announced,2022,600000
+SVN,Slovenia,Only Donated,2022,300000
+KOR,South Korea,Delivered,2022,0
+KOR,South Korea,Only Announced,2022,5000000
+KOR,South Korea,Only Donated,2022,0
+ESP,Spain,Delivered,2022,39600000
+ESP,Spain,Only Announced,2022,14300000
+ESP,Spain,Only Donated,2022,20100000
+SWE,Sweden,Delivered,2022,6600000
+SWE,Sweden,Only Announced,2022,400000
+SWE,Sweden,Only Donated,2022,4000000
+CHE,Switzerland,Delivered,2022,1800000
+CHE,Switzerland,Only Announced,2022,6200000
+CHE,Switzerland,Only Donated,2022,0
+ARE,United Arab Emirates,Delivered,2022,0
+ARE,United Arab Emirates,Only Announced,2022,1000000
+ARE,United Arab Emirates,Only Donated,2022,0
+GBR,United Kingdom,Delivered,2022,29700000
+GBR,United Kingdom,Only Announced,2022,41000000
+GBR,United Kingdom,Only Donated,2022,29300000
+USA,United States,Delivered,2022,237600000
+USA,United States,Only Announced,2022,386300000
+USA,United States,Only Donated,2022,276100000

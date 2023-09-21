@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Number of vaccination donations for each region",
+  "title": "Number of Vaccine Donated by Each Region",
+  "width": 800,
+  "height": 300,
+  "data": {
+    "url": "./covax-donations_covax-donations.csv"
+  },
+  "params": [
+    {
+      "name": "Status_selection",
+      "bind": {
+        "input": "select",
+        "options": [null, "Delivered", "Only Donated", "Only Announced"],
+        "labels": [
+          "All",
+          "Delivered",
+          "Only Donated",
+          "Only Announced"
+        ],
+        "name": "Status Selection"
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "Status_selection == null || datum.status == Status_selection"}
+  ],
+  "mark": "bar",
+  "encoding": {
+      "x": {"aggregate": "sum", "field": "Number", "title": "Number"},
+      "y": {"field": "Entity", "title": "Region"},
+      "color": {"field": "status"},
+      "tooltip": [
+        {"field": "status", "type": "nominal", "title": "Status"},
+        {"field": "Number", "type": "quantitative", "title": "Number"}
+      ]
+  }  
+}

@@ -1,0 +1,31 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "History of booster vaccination in each region",
+    "width": 1150, "height": 560,
+    "description": "Show the history of booster vaccination for each country",
+    "layer": [{
+    "data": {"url": "./covid-vaccine-booster-doses-per-capita.csv"},
+    "mark":{
+        "type": "line"
+    },
+    "encoding": {
+      "x": {"timeUnit": "yearmonthdate", "field": "Day", "type": "ordinal"},
+      "y": {"field": "total_boosters_per_hundred", "type": "quantitative", "title":"total boosters per hundred"},
+      "color": {"field": "Entity", "type": "nominal", "title":"region"},
+      "tooltip": [
+        {"field": "Entity", "type": "nominal", "title":"region"},
+        {"field": "total_boosters_per_hundred", "type": "quantitative", "title": "total boosters per hundred"}
+      ]
+    } 
+    },{
+        "data": {"values": [{"y": 100, "text": "Everyone got booster on average"}]}, 
+        "mark": {"type": "text", "baseline": "middle", "dx": -475, "dy": -15},
+        "encoding": {"y": {"field": "y", "type": "quantitative"}, "text": {"field": "text"}}
+      },
+      {
+        "data": {"values": [{"y": 100, "text": "Y-Axis Annotation"}]},
+        "mark": {"type": "rule", "strokeWidth": 2}, 
+        "encoding": {"y": {"field": "y", "type": "quantitative"}}
+      }
+    ]
+  }

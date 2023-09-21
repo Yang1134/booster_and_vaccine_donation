@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="./vega.js"></script>
+  <script src="./vegalite.js"></script>
+  <script src="./vegaembed.js"></script>
+  
+ 
+</head>
+<body>
+
+
+  
+<div id="linechart"></div>
+
+<script type="text/javascript">
+
+  var spec2 = "linechart.vg.json";
+  vegaEmbed('#linechart', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+
+
+
+
+
+  
+<div id="stackedbarchart"></div>
+
+<script type="text/javascript">
+
+  var spec = "stackedbarchart.vg.json";
+  vegaEmbed('#stackedbarchart', spec).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+
+
+
+
+
+
+</body>
+</html>
